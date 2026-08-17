@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Food Corner - Online Food Delivery</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <table>
+        <tr>
+            <td align="left">
+                <h1>🍔 Food Corner</h1>
+            </td>
+
+            <td align="right">
+                <a href="index.html">
+                    <h3>🏠 Home</h3>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <!-- Welcome -->
+    <center>
+
+        <h1>🍕 Welcome to Food Corner 🍕</h1>
+
+        <h3>Fresh Food • Fast Delivery • Best Taste</h3>
+
+        <marquee width="70%">
+            🎉 Special Offer! Get Delicious Food Delivered To Your Doorstep! 🎉
+        </marquee>
+
+        <br><br>
+
+        <!-- Order Form -->
+        
+                <h2>🛒 Place Your Order</h2>
+           
+
+            <form action="thankyou.html">
+
+                <table >
+
+                    <tr>
+                        <td>
+                            <label>👤 Full Name:</label>
+                        </td>
+
+                        <td>
+                            <input type="text"
+                                   name="name"
+                                   placeholder="Enter your name"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>📱 Mobile Number:</label>
+                        </td>
+
+                        <td>
+                            <input type="tel"
+                                   name="mobile"
+                                   placeholder="Enter mobile number"
+                                   maxlength="10"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>📧 Email:</label>
+                        </td>
+
+                        <td>
+                            <input type="email"
+                                   name="email"
+                                   placeholder="Enter your email"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>🏠 Delivery Address:</label>
+                        </td>
+
+                        <td>
+                            <textarea name="address"
+                                      rows="4"
+                                      cols="30"
+                                      placeholder="Enter complete address"
+                                      required></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>🍽️ Select Food:</label>
+                        </td>
+
+                        <td>
+                            <select name="food" required>
+
+                                <option value="">
+                                    -- Select Food Item --
+                                </option>
+
+                                <option value="Pizza">
+                                    🍕 Pizza
+                                </option>
+
+                                <option value="Burger">
+                                    🍔 Burger
+                                </option>
+
+                                <option value="Biryani">
+                                    🍗 Biryani
+                                </option>
+
+                                <option value="Pasta">
+                                    🍝 Pasta
+                                </option>
+
+                                <option value="Sandwich">
+                                    🥪 Sandwich
+                                </option>
+
+                                <option value="French Fries">
+                                    🍟 French Fries
+                                </option>
+
+                                <option value="Momos">
+                                    🥟 Momos
+                                </option>
+
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>🔢 Quantity:</label>
+                        </td>
+
+                        <td>
+                            <input type="number"
+                                   name="quantity"
+                                   min="1"
+                                   max="10"
+                                   value="1"
+                                   required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>🌶️ Spice Level:</label>
+                        </td>
+
+                        <td>
+                            <input type="radio"
+                                   name="spice"
+                                   value="low">
+                            Low
+
+                            <input type="radio"
+                                   name="spice"
+                                   value="medium"
+                                   checked>
+                            Medium
+
+                            <input type="radio"
+                                   name="spice"
+                                   value="high">
+                            High
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>💳 Payment Method:</label>
+                        </td>
+
+                        <td>
+                            <select name="payment" required>
+
+                                <option value="">
+                                    -- Select Payment --
+                                </option>
+
+                                <option value="UPI">
+                                    📱 UPI
+                                </option>
+
+                                <option value="Card">
+                                    💳 Credit / Debit Card
+                                </option>
+
+                                <option value="COD">
+                                    💵 Cash On Delivery
+                                </option>
+
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label>📝 Special Instructions:</label>
+                        </td>
+
+                        <td>
+                            <textarea name="instructions"
+                                      rows="3"
+                                      cols="30"
+                                      placeholder="Any special instructions?"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" align="center">
+
+                            <br>
+
+                            <input type="reset"
+                                   value="🔄 Reset">
+
+                            &nbsp;&nbsp;&nbsp;
+
+                            <input type="submit"
+                                   value="🛵 Place Order">
+
+                        </td>
+                    </tr>
+
+                </table>
+
+            </form>
+
+       
+
+        <br>
+
+        <h3>⭐ Why Choose Food Corner?</h3>
+
+        <table  >
+
+            <tr>
+                <th>🍴 Fresh Food</th>
+                <th>⚡ Fast Delivery</th>
+                <th>💰 Best Price</th>
+                <th> Best Quality</th>
+            </tr>
+
+           
+        </table>
+
+        <br><br>
+
+        <hr>
+
+        <p>
+            📞 Contact: +91 00000 43210
+            &nbsp;&nbsp; | &nbsp;&nbsp;
+            📧 foodcorner@gmail.com
+        </p>
+
+        <p>
+            © 2026 Food Corner | All Rights Reserved
+        </p>
+
+    </center>
+
+</body>
+</html>
